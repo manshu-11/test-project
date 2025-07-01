@@ -3,6 +3,7 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
 import ShowText from "./ShowText";
+import ShowBigText from "./ShowBigText";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -24,6 +25,9 @@ function App() {
         </button>
         <p>
           <ShowText />
+        </p>
+        <p>
+          <ShowBigText />
         </p>
       </div>
       <p className="read-the-docs">
